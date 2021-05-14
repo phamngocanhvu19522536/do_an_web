@@ -25,3 +25,222 @@ header{
 .header-right{
     text-align: right;
 }
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding-left: 32px;
+    padding-right: 16px;
+}
+.col1 {
+    width: 100%;
+}
+
+.col2 {
+    width: 50%;
+    
+}
+
+.col4 {
+    width: 25%;
+}
+
+.row1 {
+    margin-bottom: 32px;
+}
+
+.row2 {
+    margin-bottom: 32px;
+}
+
+
+.margin_right {
+    margin-right: 8px;
+}
+
+
+.margin_bot {
+    margin-bottom: 32px;
+}
+
+.margin_top {
+    margin-top: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background: url('img/header.jpg') top center / cover no-repeat;
+    min-height: 25vh;
+    opacity: 0.8;
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.Send-btn{
+    padding: 8px 16px 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    float :right;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 4px;
+    font-style: initial;
+    cursor: pointer;
+}
+
+
+.loinhan {
+    width: 100%;
+}
+
+
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    min-height: 40vh;
+    align-items: center;
+
+}
+
+#contact .header {
+    margin-bottom: 16px;
+    color: #c30005;
+    font-size: 28px;
+}
+
+
+#contact .diachi {
+    display: flex;
+    margin-bottom: 8px;
+
+}
+
+#contact .phone {
+    display: flex;
+    margin-bottom: 8px;
+    
+}
+
+#contact .phone:hover {
+    color: rgb(62, 127, 248);
+    cursor: pointer;
+}
+
+#contact .mail {
+    display: flex;
+    margin-bottom: 8px;
+
+}
+
+#contact .mail:hover {
+    color: rgb(62, 127, 248);
+    cursor: pointer;
+}
+
+
+#map {
+    background: url('img/map.PNG') top center / cover no-repeat;
+    min-height: 50vh;
+}
+
+
+
+#footer{
+    min-height: 70vh;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+.footerset {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 42px;
+    border-bottom: 2px solid antiquewhite;
+    margin-bottom: 32px;
+   
+}
+
+.footerset .gioithieu {
+    flex-basis: 20vw;
+    margin-top: 64px;
+}
+
+.footerset .diachi {
+    flex-basis: 20vw;
+    margin-top: 64px;
+
+
+}
+
+.footerset .menu {
+    flex-basis: 20vw;
+    margin-top: 64px;
+
+
+}
+
+.footerset .mang {
+    flex-basis: 20vw;
+    margin-top: 64px;
+
+
+}
+
+.color {
+    color: antiquewhite;
+}
+
+.msg {
+    opacity: 0.6;
+}
+
+#footer .footerend {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footerend .endinput {
+    display: flex;
+    min-height: 40px;
+    min-width: 300px;
+
+}
+
+.form-control {
+    max-height: 64px;
+}
+
+.SubBtn {
+    background-color: rgb(145, 22, 38);
+    color: rgb(235, 208, 208);
+    border: none;
+    min-height: 40px;
+    min-width: 80px;
+
+}
+
+.SubBtn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
